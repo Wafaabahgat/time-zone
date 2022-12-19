@@ -1,0 +1,58 @@
+.user {
+    padding: 20px;
+    width: 100%;
+}
+
+.user__container > h2 {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 12px -10px #555;
+    width: 100%;
+    text-align: center;
+}
+
+.user__create {
+    padding: 8px 4px;
+    text-align: center;
+    background: rgb(106, 128, 145);
+    color: #f6f6f6;
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+    font-size: 19px;
+    border: 0;
+    display: block;
+    cursor: pointer;
+}
+
+.user__create:active {
+    transform: scale(0.8);
+}
+
+.user__filter {
+    margin-left: auto;
+    width: fit-content;
+    display: flex;
+    gap: 8px;
+}
+
+.user__filter input,
+.user__filter button {
+    border: 0;
+    padding: 12px;
+    font-size: 16px;
+    outline-color: #888;
+    border-radius: 8px;
+    box-shadow: 0 0 12px -8px #666;
+}
+
+.user__filter button {
+    background-color: rgb(6, 151, 170);
+    color: #f6f6f6;
+    padding: 12px 22px;
+    border-radius: 4px;
+}

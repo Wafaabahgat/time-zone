@@ -1,0 +1,94 @@
+/* .container {
+  right: 0;
+  width: 99%;
+  height: 100vh;
+  background: #f1f1f1;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.container .header {
+  position: fixed;
+  margin-top: 80px;
+  width: 60%;
+  top: 0;
+  height: 10vh;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.header h2 {
+  text-transform: uppercase;
+}
+.header h2:hover {
+  color: #e61b73;
+} */
+
+
+.dash {
+  padding: 20px;
+  width: 100%;
+}
+
+.dash__container > h2 {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 12px -10px #555;
+  width: 100%;
+  text-align: center;
+}
+
+.card__container {
+  display: flex;
+  gap: 12px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px -10px #555;
+  padding: 20px;
+  width: 100%;
+}
+
+.card__head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card__head p {
+  width: fit-content;
+  border-radius: 12px;
+  width: 45px;
+  text-align: center;
+}
+.card__head span {
+  color: #444;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+}
+
+.card h2 {
+  font-size: 40px;
+  margin: 20px 10px;
+}
+
+.card p {
+  color: #999;
+}
+
+@media (max-width: 900px) {
+  .card__container {
+    flex-direction: column;
+  }
+}
